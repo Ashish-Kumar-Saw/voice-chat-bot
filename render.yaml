@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: voice-chat-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run your_app_filename.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+    plan: free

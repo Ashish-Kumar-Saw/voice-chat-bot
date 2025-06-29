@@ -1,0 +1,23 @@
+# Environment and virtual environment
+.env
+myenv/
+venv/
+env/
+MYENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary files
+*.mp3
+*.wav
+.temp/
+
+# Local configuration
+.streamlit/secrets.toml
+
+# OS specific files
+.DS_Store
+Thumbs.db

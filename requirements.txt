@@ -1,0 +1,21 @@
+# Web application framework
+streamlit==1.31.0
+
+# Numerical operations
+numpy==1.26.3
+
+# Environment variable management
+python-dotenv==1.0.1
+
+# Speech recognition
+SpeechRecognition==3.10.1
+PyAudio==0.2.14  # Required for microphone input
+
+# Text-to-speech
+gTTS==2.5.0
+
+# Audio playback
+pygame==2.5.2
+
+# Google Generative AI for Gemini models
+google-generativeai==0.3.2
