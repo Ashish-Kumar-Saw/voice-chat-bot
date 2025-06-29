@@ -4,11 +4,3 @@ python-dotenv==1.0.1
 SpeechRecognition==3.10.1
 gTTS==2.5.0
 google-generativeai==0.3.2
-
-# Use binary distribution for problematic packages
---find-links https://github.com/pygame/pygame/releases/
-pygame==2.5.2
-
-# Use binary wheel for PyAudio
---find-links https://github.com/miketheripper06/pyaudio-wheels/releases/download/v0.2.14/
-PyAudio==0.2.14
